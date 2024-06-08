@@ -35,10 +35,7 @@ const config: Config = {
         'lobster': ['Lobster', 'sans-serif'],
       },
       backgroundImage: {
-        "fundo-leveza": "url('/logo.svg')",
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",  
+        "fundo-emporio": "url('/logo.svg')",
       },
       animation: {
         typewriter: "typewriter 2s steps(14) forwards",
@@ -136,7 +133,13 @@ const config: Config = {
         '4xl': '4096px',
       },
       colors: {
-        "own-blue": "#a1c8e6"
+        "own-blue": "#a1c8e6",
+        "own-orange": "#f24e1b",
+        "own-orange-fosco": "#f57515",
+        "own-yellow": "#f89b1b",
+        "own-blue-dark": "#18314f",
+        "own-brown":"#601714",
+        "own-brown-dark": "#3e1a13",
       }
     },
   },

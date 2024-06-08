@@ -82,7 +82,7 @@ export default function NavbarDropdownMenu() {
                             hover:cursor-none
                           `}
                         >
-                          Serviços
+                          Sobre
                         </p>
                       </div>
                     )}
@@ -102,7 +102,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#terapia"
+                          href="#cardapio"
                           className={`
                             flex
                             items-center
@@ -112,7 +112,7 @@ export default function NavbarDropdownMenu() {
                             xl:text-lg  
                           `}
                         >
-                          Terapia
+                          Cardápio
                         </a>
                       </div>
                     )}
@@ -133,7 +133,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#levezaSelvagem"
+                          href="#bebidas"
                           className={`
                             flex
                             items-center
@@ -144,7 +144,7 @@ export default function NavbarDropdownMenu() {
                             xl:text-lg
                           `}
                         >
-                          Leveza Selvagem
+                          Bebidas
                         </a>
                       </div>
                     )}
@@ -165,7 +165,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#levetarot"
+                          href="#salgados"
                           className={`
                             flex
                             items-center
@@ -175,7 +175,7 @@ export default function NavbarDropdownMenu() {
                             xl:text-lg
                           `}
                         >
-                          Leve Tarot
+                          Salgados
                         </a>
                       </div>
                     )}
@@ -196,7 +196,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#produtos"
+                          href="#sopas"
                           className={`
                             flex
                             items-center
@@ -208,7 +208,7 @@ export default function NavbarDropdownMenu() {
                             hover:cursor-none
                           `}
                         >
-                          Produtos
+                          Sopas
                         </a>
                       </div>
                     )}
@@ -229,7 +229,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#caixinhaDaLeveza"
+                          href="#doces"
                           className={`
                             flex
                             items-center
@@ -240,7 +240,7 @@ export default function NavbarDropdownMenu() {
                             text-center
                           `}
                         >
-                          Caixinha da Leveza
+                          Doces
                         </a>
                       </div>
                     )}

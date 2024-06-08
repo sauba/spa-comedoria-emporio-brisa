@@ -1,18 +1,18 @@
 import Image from "next/image"
 import Link from "next/link"
-import logoSauba from "../../../public/logo.svg"
+import logo from "../../../public/logo.svg"
 
 export default function Logo() {
   return (
     <span>
-      <Link href={"https://levezaparaviver.com"}>
+      <Link href={"#"}>
         <Image
-          src={logoSauba}
+          src={logo}
           width={120}
           height={80}
-          alt="Leveza Para Viver Espaço de Evolução"
+          alt="Uma Chicara cheia com uma praia ao fundo com coqueiros e a lua refletindo no mar."
           priority
-          className="mx-auto py-4 animate-wiggle"
+          className="mx-auto py-4"
         />
       </Link>
     </span>
