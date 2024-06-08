@@ -9,34 +9,6 @@ export default function Footer() {
       className={`w-full flex-col justify-center items-center text-center`}
       id="contato"
     >
-      <div className={`absolute z-40 left-0 right-0`}>
-        <Image className={`cursor-none mx-auto pt-80 opacity-90`} src={`/logo.svg`} width={320} height={320} alt="Comedoria Empório da Brisa" priority />
-        <div className={`flex justify-center items-center gap-6 z-40`}>
-          <div className={`animate-wiggle`}>
-            <span className={`text-red-500`}>
-              <Link
-                href="https://www.instagram.com/emporiodabrisa/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <InstagramLogo size={48} />
-              </Link>
-            </span>
-          </div>
-
-          <div className={`animate-wiggle`}>
-            <span className={`text-green-600`}>
-              <Link
-                href="https://wa.me/5581985008651"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <WhatsappLogo size={48} />
-              </Link>
-            </span>
-          </div>
-        </div>
-      </div>
       <div className={`relative z-10`}>
         <svg className={`
           bg-gradient-to-tr
@@ -77,6 +49,35 @@ export default function Footer() {
             </use>
           </g>
         </svg>
+      </div>
+
+      <div className={`absolute z-40 left-0 right-0`}>
+        <Image className={`cursor-none mx-auto pt-80 opacity-90`} src={`/logo.svg`} width={320} height={320} alt="Comedoria Empório da Brisa" priority />
+        <div className={`flex justify-center items-center gap-6 z-40`}>
+          <div className={`animate-wiggle`}>
+            <span className={`text-red-500`}>
+              <Link
+                href="https://www.instagram.com/emporiodabrisa/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <InstagramLogo size={48} />
+              </Link>
+            </span>
+          </div>
+
+          <div className={`animate-wiggle`}>
+            <span className={`text-green-600`}>
+              <Link
+                href="https://wa.me/5581985008651"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <WhatsappLogo size={48} />
+              </Link>
+            </span>
+          </div>
+        </div>
       </div>
 
       <p className="relative font-bad-script text-center text-zinc-50 -mt-8 z-50">© 2024 Todos os direitos reservados.</p>
