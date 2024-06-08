@@ -10,7 +10,7 @@ export default function Footer() {
       id="contato"
     >
       <div className={`absolute z-40 left-0 right-0`}>
-        <Image className={`cursor-none mx-auto pt-80 opacity-90`} src={`/logo.svg`} width={240} height={240} alt="Comedoria Empório da Brisa" priority />
+        <Image className={`cursor-none mx-auto pt-80 opacity-90`} src={`/logo.svg`} width={320} height={320} alt="Comedoria Empório da Brisa" priority />
         <div className={`flex justify-center items-center gap-6 z-40`}>
           <div className={`animate-wiggle`}>
             <span className={`text-red-500`}>
