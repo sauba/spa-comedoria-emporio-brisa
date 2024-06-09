@@ -24,17 +24,17 @@ export default function CardapioBebidasGeladas() {
 
       <div className={`w-full flex flex-col justify-center items-center gap-4`}>
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Refrigerante Lata</span>
+          <span className={`text-2xl font-pt-mono`}>Refrigerante Lata</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Refrigerante 1L</span>
+          <span className={`text-2xl font-pt-mono`}>Refrigerante 1L</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 10,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Suco Polpa (Verificar Sabores)</span>
+          <span className={`text-2xl font-pt-mono`}>Suco Polpa (Verificar Sabores)</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
