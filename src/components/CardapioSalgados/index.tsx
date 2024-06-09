@@ -24,37 +24,37 @@ export default function CardapioSalgados() {
 
       <div className={`w-full flex flex-col justify-center items-center gap-4`}>
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Batata Frita</span>
+          <span className={`text-2xl font-pt-mono`}>Batata Frita</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 15,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Coxinha de Frango</span>
+          <span className={`text-2xl font-pt-mono`}>Coxinha de Frango</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Cachorro Quente</span>
+          <span className={`text-2xl font-pt-mono`}>Cachorro Quente</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Enroladinho</span>
+          <span className={`text-2xl font-pt-mono`}>Enroladinho</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Misto</span>
+          <span className={`text-2xl font-pt-mono`}>Misto</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Pão com Ovo</span>
+          <span className={`text-2xl font-pt-mono`}>Pão com Ovo</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 5,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Sopa</span>
+          <span className={`text-2xl font-pt-mono`}>Sopa</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
       </div>
