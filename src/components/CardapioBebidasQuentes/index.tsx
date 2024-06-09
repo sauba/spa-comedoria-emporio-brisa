@@ -24,17 +24,17 @@ export default function CardapioBebidasQuentes() {
 
       <div className={`w-full flex flex-col justify-center items-center gap-4`}>
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Café Coado</span>
+          <span className={`text-4xl font-pt-mono`}>Café Coado</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 3,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Café com Leite</span>
+          <span className={`text-4xl font-pt-mono`}>Café com Leite</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 4,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}>Cappuccino</span>
+          <span className={`text-4xl font-pt-mono`}>Cappuccino</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
       </div>
