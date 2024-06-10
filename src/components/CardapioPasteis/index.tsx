@@ -23,33 +23,33 @@ export default function CardapioPasteis() {
       </span>
 
       <div className={`w-full flex flex-col justify-center items-center gap-4`}>
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
         </span>
       </div>
