@@ -2,7 +2,7 @@
 
 import { Hamburger } from "@phosphor-icons/react";
 
-export default function CardapioSalgados() {
+export default function CardapioLanches() {
   return (
     <div className={`
         w-full
