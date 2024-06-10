@@ -16,6 +16,7 @@ export default function About() {
         font-caveat
       `} id="about">
       <Image src={`/logo.svg`} width={320} height={320} alt="" className={`cursor-none mx-auto hover:transition-transform hover:scale-125`} priority />
+      <p className={`text-3xl`}>Cardápio</p>
     </div>
   )
 }
