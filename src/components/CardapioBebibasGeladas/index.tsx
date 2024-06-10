@@ -34,7 +34,7 @@ export default function CardapioBebidasGeladas() {
         </span>
 
         <span className={`w-full flex text-center justify-between items-center gap-3`}>
-          <span className={`text-2xl font-pt-mono`}>Suco Polpa <span className={`text-xs`}>(Consultar Sabores)</span></span>
+          <span className={`text-2xl font-pt-mono`}>Suco Polpa <span className={`text-xl`}>(Consultar Sabores)</span></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
