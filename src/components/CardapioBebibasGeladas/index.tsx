@@ -22,35 +22,35 @@ export default function CardapioBebidasGeladas() {
         <BeerBottle size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
-      <div className={`w-full flex flex-col justify-center items-center gap-4`}>
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
+      <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
+        <span className={`w-full flex text-center justify-between items-center`}>
           <span className={`text-2xl font-pt-mono`}>Refrigerante Lata</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Refrigerante 1L</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 10,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-2xl font-pt-mono`}>Suco Polpa (Verificar Sabores)</span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}>Suco Polpa <span className={`text-xs`}>(Consultar Sabores)</span></span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Água Mineral</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 3,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Água Mineral C/ Gás</span>
           <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 4,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Água Mineral 1,5 litros</span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
+          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ #,00</span>
         </span>
       </div>
     </div>
