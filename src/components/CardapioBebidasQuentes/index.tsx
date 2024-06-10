@@ -9,6 +9,7 @@ export default function CardapioBebidasQuentes() {
         cardapiobebidasquentes
         flex
         flex-col
+        pb-32
         justify-center
         items-center
         text-center
