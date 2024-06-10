@@ -53,8 +53,8 @@ export default function Footer() {
       </div>
 
       <div className={`relative z-40 left-0 right-0`}>
-        <Image className={`cursor-none mx-auto opacity-90 -mt-80 xl:-mt-96`} src={`/logo.svg`} width={256} height={256} alt="Comedoria Empório da Brisa" priority />
-        <p className={`text-center font-caveat text-xl xl:text-4xl`}>Redes Sociais</p>
+        <Image className={`cursor-none mx-auto opacity-90 -mt-96`} src={`/logo.svg`} width={256} height={256} alt="Comedoria Empório da Brisa" priority />
+        <p className={`text-center font-caveat text-2xl xl:text-4xl`}>Redes Sociais</p>
         <div className={`flex justify-center items-center gap-6 z-40`}>
           <div className={`animate-wiggle`}>
             <span className={`text-red-500`}>
