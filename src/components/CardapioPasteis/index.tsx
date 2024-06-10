@@ -14,7 +14,7 @@ export default function CardapioPasteis() {
         text-center
         outline-none
         border-none
-        text-zinc-100
+        text-own-brown-dark
         font-caveat
       `} id="cardapiopasteis">
       <span className={`flex justify-center items-center gap-2`}>
