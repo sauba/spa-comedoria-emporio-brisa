@@ -25,23 +25,23 @@ export default function CardapioTapiocas() {
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
         <div className={``}>
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
+            <Square size={36} weight="duotone" />
             <span className={`text-2xl font-pt-mono`}>Queijo</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
-            <span className={`text-2xl font-pt-mono`}>Calabresa</span>
+            <Square size={36} weight="duotone" />
+            <span className={`text-2xl font-pt-mono`}>Frango</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
-            <span className={`text-2xl font-pt-mono`}>Carne Moída</span>
+            <Square size={36} weight="duotone" />
+            <span className={`text-2xl font-pt-mono`}>Charque</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
-            <span className={`text-2xl font-pt-mono`}></span>
+            <Square size={36} weight="duotone" />
+            <span className={`text-2xl font-pt-mono`}>Coco</span>
           </span>
         </div>
       </div>
