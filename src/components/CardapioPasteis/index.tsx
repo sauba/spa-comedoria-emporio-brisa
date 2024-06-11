@@ -29,22 +29,22 @@ export default function CardapioPasteis() {
 
         <div className={`flex flex-col justify-center items-center gap-3`}>
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Circle size={16} weight="duotone" />
+            <Circle size={8} weight="duotone" />
             <span className={`text-2xl font-pt-mono`}>Queijo</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Circle size={16} weight="duotone" />
+            <Circle size={8} weight="duotone" />
             <span className={`text-2xl font-pt-mono`}>Calabresa</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Circle size={16} weight="duotone" />
+            <Circle size={8} weight="duotone" />
             <span className={`text-2xl font-pt-mono`}>Frango</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Circle size={16} weight="duotone" />
+            <Circle size={8} weight="duotone" />
             <span className={`text-2xl font-pt-mono`}>Charque</span>
           </span>
         </div>
