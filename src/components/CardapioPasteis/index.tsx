@@ -1,6 +1,6 @@
 'use client'
 
-import { Square, SquareHalfBottom } from "@phosphor-icons/react";
+import { Circle, SquareHalfBottom } from "@phosphor-icons/react";
 
 export default function CardapioPasteis() {
   return (
@@ -29,22 +29,22 @@ export default function CardapioPasteis() {
 
         <div className={`flex justify-center items-center gap-6`}>
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
+            <Circle size={8} />
             <span className={`text-2xl font-pt-mono`}>Queijo</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
+            <Circle size={8} />
             <span className={`text-2xl font-pt-mono`}>Calabresa</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
+            <Circle size={8} />
             <span className={`text-2xl font-pt-mono`}>Carne Moída</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} />
+            <Circle size={8} />
             <span className={`text-2xl font-pt-mono`}></span>
           </span>
         </div>
