@@ -24,17 +24,17 @@ export default function CardapioCuscuz() {
 
       <div className={`w-full flex flex-col justify-center items-center p-4 gap-4`}>
         <span className={`w-full flex text-center justify-between lg:justify-center items-center`}>
-          <span className={`text-2xl font-pt-mono`}>Cuscuz Recheado C/ Frango</span>
+          <span className={`text-2xl font-pt-mono`}>Frango</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
 
         <span className={`w-full flex text-center justify-between lg:justify-center items-center`}>
-          <span className={`text-2xl font-pt-mono`}>Cuscuz Recheado C/ Charque</span>
+          <span className={`text-2xl font-pt-mono`}>Charque</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
 
         <span className={`w-full flex text-center justify-between lg:justify-center items-center`}>
-          <span className={`text-2xl font-pt-mono`}>Cuscuz Recheado C/ Calabresa</span>
+          <span className={`text-2xl font-pt-mono`}>Calabresa</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
       </div>
