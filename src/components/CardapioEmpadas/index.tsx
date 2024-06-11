@@ -23,22 +23,22 @@ export default function CardapioEmpadas() {
       </span>
 
       <div className={`w-full flex flex-col justify-center items-center p-4 gap-4`}>
-        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between lg:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Frango</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
 
-        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between lg:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Carne de Sol com Queijo</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
 
-        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between lg:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Calabresa com Queijo</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
 
-        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+        <span className={`w-full flex text-center justify-between lg:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Camarão</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
