@@ -27,7 +27,7 @@ export default function CardapioPasteis() {
           <span className={`text-2xl font-pt-mono`}>Escolha 03 Opções de Recheio</span>
         </span>
 
-        <div className={`flex justify-center items-center gap-6`}>
+        <div className={`flex justify-center items-center gap-3`}>
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
             <Circle size={16} weight="duotone" />
             <span className={`text-2xl font-pt-mono`}>Queijo</span>
