@@ -22,40 +22,20 @@ export default function CardapioCuscuz() {
         <CookingPot size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
-      <div className={`w-full flex flex-col justify-center items-center gap-4`}>
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
+      <div className={`w-full flex flex-col justify-center items-center p-4 gap-4`}>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}>Cuscuz Recheado com Frango</span>
+          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}>Cuscuz Recheado com Charque</span>
+          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
-        </span>
-
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
-        </span>
-
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
-        </span>
-
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
-        </span>
-
-        <span className={`w-full flex text-center justify-center items-center gap-3`}>
-          <span className={`text-4xl`}></span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 0,00</span>
+        <span className={`w-full flex text-center justify-between items-center gap-3`}>
+          <span className={`text-2xl font-pt-mono`}>Cuscuz Recheado com Calabresa</span>
+          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </span>
       </div>
     </div>

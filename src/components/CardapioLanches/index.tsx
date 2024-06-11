@@ -25,22 +25,22 @@ export default function CardapioLanches() {
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
         <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Coxinha de Frango</span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
+          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ 6,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Misto</span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
+          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ 6,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Pão com Ovo</span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 5,00</span>
+          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ 5,00</span>
         </span>
 
         <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
           <span className={`text-2xl font-pt-mono`}>Sopa</span>
-          <span className={`p-1 bg-rose-700 rounded-lg text-zinc-50 font-bold`}>R$ 6,00</span>
+          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ 6,00</span>
         </span>
       </div>
     </div>
