@@ -29,7 +29,7 @@ export default function CardapioBebidasGeladas() {
         </span>
 
         <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
-          <span className={`text-2xl font-pt-mono`}>Refrigerante 1L</span>
+          <span className={`text-2xl font-pt-mono`}>Refrigerante 1 litro</span>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ 10,00</span>
         </span>
 
