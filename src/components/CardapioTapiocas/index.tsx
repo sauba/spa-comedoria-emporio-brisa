@@ -1,6 +1,6 @@
 'use client'
 
-import { Moon, Square } from "@phosphor-icons/react";
+import { Circle, Moon } from "@phosphor-icons/react";
 
 export default function CardapioTapiocas() {
   return (
@@ -18,32 +18,32 @@ export default function CardapioTapiocas() {
         font-caveat
       `} id="cardapiotapiocas">
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-5xl pb-4 font-bold`}>Tapiocas</p>
+        <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl pb-4 font-bold`}>Tapiocas</p>
         <Moon size={48} weight="duotone" className={`rotate-12`} />
       </span>
 
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
-        <div className={``}>
+        <div className={`flex flex-col justify-center items-center gap-3`}>
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} weight="duotone" />
-            <span className={`text-2xl font-pt-mono`}>Queijo</span>
+            <Circle size={8} weight="duotone" />
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Queijo</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} weight="duotone" />
-            <span className={`text-2xl font-pt-mono`}>Frango</span>
+            <Circle size={8} weight="duotone" />
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} weight="duotone" />
-            <span className={`text-2xl font-pt-mono`}>Charque</span>
+            <Circle size={8} weight="duotone" />
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Charque</span>
           </span>
 
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Square size={36} weight="duotone" />
-            <span className={`text-2xl font-pt-mono`}>Coco</span>
+            <Circle size={8} weight="duotone" />
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Coco</span>
           </span>
-          <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
         </div>
       </div>
     </div>
