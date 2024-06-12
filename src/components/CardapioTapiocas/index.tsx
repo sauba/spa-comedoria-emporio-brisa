@@ -43,7 +43,6 @@ export default function CardapioTapiocas() {
             <Square size={36} weight="duotone" />
             <span className={`text-2xl font-pt-mono`}>Coco</span>
           </span>
-<span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
           <span className={`text-2xl p-1 font-pt-mono font-bold rounded-lg bg-rose-700 text-zinc-50`}>R$ #,##</span>
         </div>
       </div>
