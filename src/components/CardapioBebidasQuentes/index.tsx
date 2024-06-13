@@ -23,7 +23,7 @@ export default function CardapioBebidasQuentes() {
         font-caveat
       `} id="cardapiobebidasquentes">
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl pb-4 font-bold`}>Hora do Café</p>
+        <p className={`text-2xl xl:text-3xl 2xl:text-8xl pb-4 font-bold`}>Hora do Café</p>
         <Coffee size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
