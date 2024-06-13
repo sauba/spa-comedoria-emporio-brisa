@@ -603,6 +603,9 @@ video {
 .inline-flex {
   display: inline-flex;
 }
+.grid {
+  display: grid;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -651,6 +654,9 @@ video {
 }
 .cursor-none {
   cursor: none;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -913,6 +919,10 @@ body {
 }
 
 @media (min-width: 1024px) {
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 
   .lg\:justify-center {
     justify-content: center;

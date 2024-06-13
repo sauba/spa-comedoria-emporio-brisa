@@ -1,6 +1,10 @@
 'use client'
 
 import { Coffee } from "@phosphor-icons/react";
+import Image from "next/image";
+import imgCafeCappuccino from "../../../public/cafeCappuccino.svg";
+import imgCafe from "../../../public/cafeCoado.svg";
+import imgCafeComLeite from "../../../public/cafeComLeite.svg";
 
 export default function CardapioBebidasQuentes() {
   return (
@@ -23,18 +27,21 @@ export default function CardapioBebidasQuentes() {
         <Coffee size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
-      <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
-        <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
+      <div className={`w-full p-4 grid grid-col-2 lg:grid-cols-3 justify-center items-center`}>
+        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3`}>
+          <Image src={imgCafe} width={220} height={220} alt="" className={`mx-auto`} priority />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Café Coado</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 3,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
+        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3`}>
+          <Image src={imgCafeComLeite} width={220} height={220} alt="" className={`mx-auto`} priority />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Café com Leite</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 4,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-between xl:justify-center items-center gap-3`}>
+        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3`}>
+          <Image src={imgCafeCappuccino} width={220} height={220} alt="" className={`mx-auto`} priority />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Cappuccino</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 6,00</span>
         </span>
