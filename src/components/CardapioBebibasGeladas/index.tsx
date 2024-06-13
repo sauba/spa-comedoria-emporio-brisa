@@ -4,10 +4,10 @@ import { BeerBottle } from "@phosphor-icons/react";
 import Image from "next/image";
 import imgAguaMineral from "../../../public/aguaMineral.svg";
 import imgAguaMineralComGas from "../../../public/aguaMineralComGas.svg";
+import imgAguaMineralUmLitroeMeio from "../../../public/aguaMineralUmLitroEMeioSemGas.svg";
 import imgRefrigeranteDiversosLitro from "../../../public/refrigeranteDiversosLitro.svg";
 import imgRefrigeranteLata from "../../../public/refrigerantelata.svg";
 import imgSucoPolpas from "../../../public/sucoPolpas.svg";
-// import img from "../../../public/"
 
 export default function CardapioBebidasGeladas() {
   return (
@@ -55,7 +55,7 @@ export default function CardapioBebidasGeladas() {
         </span>
 
         <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={ } width={180} height={180} alt="" className={`mx-auto`} priority />
+          <Image src={imgAguaMineral} width={180} height={180} alt="" className={`mx-auto`} priority />
           <div className={`flex flex-col justify-center items-center`}>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Água Mineral</span>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 3,00</span>
@@ -63,7 +63,7 @@ export default function CardapioBebidasGeladas() {
         </span>
 
         <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgAguaMineral} width={180} height={180} alt="" className={`mx-auto`} priority />
+          <Image src={imgAguaMineralComGas} width={180} height={180} alt="" className={`mx-auto`} priority />
           <div className={`flex flex-col justify-center items-center`}>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Água Mineral C/ Gás</span>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 4,00</span>
@@ -71,9 +71,9 @@ export default function CardapioBebidasGeladas() {
         </span>
 
         <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgAguaMineralComGas} width={180} height={180} alt="" className={`mx-auto`} priority />
+          <Image src={imgAguaMineralUmLitroeMeio} width={180} height={180} alt="" className={`mx-auto`} priority />
           <div className={`flex flex-col justify-center items-center`}>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Água Mineral 1,5 litros</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Água Mineral 1,5l</span>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,00</span>
           </div>
         </span>

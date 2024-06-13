@@ -594,6 +594,9 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.-mt-4 {
+  margin-top: -1rem;
+}
 .-mt-96 {
   margin-top: -24rem;
 }
@@ -780,6 +783,10 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
@@ -795,10 +802,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 .font-bold {
   font-weight: 700;
@@ -958,19 +961,9 @@ body {
     line-height: 2.25rem;
   }
 
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .hover\:xl\:text-2xl:hover {
