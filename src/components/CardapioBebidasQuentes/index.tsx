@@ -27,7 +27,7 @@ export default function CardapioBebidasQuentes() {
         <Coffee size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
-      <div className={`w-full p-4 grid grid-col-2 lg:grid-cols-3 justify-center items-center`}>
+      <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center`}>
         <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3`}>
           <Image src={imgCafe} width={220} height={220} alt="" className={`mx-auto`} priority />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Café Coado</span>
