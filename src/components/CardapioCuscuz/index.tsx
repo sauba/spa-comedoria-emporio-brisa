@@ -1,6 +1,10 @@
 'use client'
 
 import { CookingPot } from "@phosphor-icons/react";
+import Image from "next/image";
+import imgCuscuzCalabresa from "../../../public/cuscuzCalabresa.svg";
+import imgCuscuzCharque from "../../../public/cuscuzCharque.svg";
+import imgCuscuzFrango from "../../../public/cuscuzFrango.svg";
 
 export default function CardapioCuscuz() {
   return (
@@ -22,20 +26,29 @@ export default function CardapioCuscuz() {
         <CookingPot size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
-      <div className={`w-full flex flex-col justify-center items-center p-4 gap-4`}>
-        <span className={`w-full flex text-center justify-between lg:justify-center items-center gap-3`}>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
+      <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-3`}>
+        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
+          <Image src={imgCuscuzFrango} width={180} height={180} alt="" className={`mx-auto`} priority />
+          <div className={`flex flex-col justify-center items-center`}>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
+          </div>
         </span>
 
-        <span className={`w-full flex text-center justify-between lg:justify-center items-center gap-3`}>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Charque</span>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
+        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
+          <Image src={imgCuscuzCharque} width={180} height={180} alt="" className={`mx-auto`} priority />
+          <div className={`flex flex-col justify-center items-center`}>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Charque</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
+          </div>
         </span>
 
-        <span className={`w-full flex text-center justify-between lg:justify-center items-center gap-3`}>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Calabresa</span>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
+        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
+          <Image src={imgCuscuzCalabresa} width={180} height={180} alt="" className={`mx-auto`} priority />
+          <div className={`flex flex-col justify-center items-center`}>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Calabresa</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
+          </div>
         </span>
       </div>
     </div>
