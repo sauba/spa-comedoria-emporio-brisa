@@ -629,6 +629,10 @@ video {
   --tw-rotate: 12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.-rotate-12 {
+  --tw-rotate: -12deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .scale-100 {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
@@ -761,11 +765,33 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
 .pb-32 {
   padding-bottom: 8rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
+}
+.pt-14 {
+  padding-top: 3.5rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 .text-center {
   text-align: center;
@@ -901,6 +927,12 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:scale-150:hover {
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:cursor-none:hover {
   cursor: none;
 }
@@ -909,9 +941,46 @@ body {
   cursor: pointer;
 }
 
+.hover\:cursor-grab:hover {
+  cursor: grab;
+}
+
+.hover\:cursor-grabbing:hover {
+  cursor: grabbing;
+}
+
+.hover\:overflow-hidden:hover {
+  overflow: hidden;
+}
+
 .hover\:rounded-r-full:hover {
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
+}
+
+.hover\:bg-lime-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-lime-500\/10:hover {
+  background-color: rgb(132 204 22 / 0.1);
+}
+
+.hover\:pb-8:hover {
+  padding-bottom: 2rem;
+}
+
+.hover\:pb-4:hover {
+  padding-bottom: 1rem;
+}
+
+.hover\:pb-6:hover {
+  padding-bottom: 1.5rem;
+}
+
+.hover\:pb-2:hover {
+  padding-bottom: 0.5rem;
 }
 
 .hover\:text-lg:hover {
@@ -926,6 +995,10 @@ body {
 }
 
 @media (min-width: 1024px) {
+
+  .lg\:grid {
+    display: grid;
+  }
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
