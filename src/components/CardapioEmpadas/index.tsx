@@ -1,6 +1,5 @@
 'use client'
 
-import { Palette } from "@phosphor-icons/react";
 
 export default function CardapioEmpadas() {
   return (
@@ -19,7 +18,6 @@ export default function CardapioEmpadas() {
       `} id="cardapioempadas">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl font-bold`}>Empadas</p>
-        <Palette size={48} weight="duotone" className={`rotate-12`} />
       </span>
 
       <div className={`w-full flex flex-col justify-center items-center p-4 gap-4`}>

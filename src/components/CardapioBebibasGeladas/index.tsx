@@ -1,6 +1,5 @@
 'use client'
 
-import { BeerBottle } from "@phosphor-icons/react";
 import Image from "next/image";
 import imgAguaMineral from "../../../public/aguaMineral.svg";
 import imgAguaMineralComGas from "../../../public/aguaMineralComGas.svg";
@@ -26,7 +25,6 @@ export default function CardapioBebidasGeladas() {
       `} id="cardapiobebidasquentes">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Bebidas Geladas</p>
-        <BeerBottle size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
       <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-3`}>

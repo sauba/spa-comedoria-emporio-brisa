@@ -1,6 +1,5 @@
 'use client'
 
-import { CookingPot } from "@phosphor-icons/react";
 import Image from "next/image";
 import imgCuscuzCalabresa from "../../../public/cuscuzCalabresa.svg";
 import imgCuscuzCharque from "../../../public/cuscuzCharque.svg";
@@ -23,7 +22,6 @@ export default function CardapioCuscuz() {
       `} id="cardapiocuscuz">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl pb-4 font-bold`}>Cuscuz</p>
-        <CookingPot size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
       <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-3`}>

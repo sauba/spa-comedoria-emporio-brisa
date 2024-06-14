@@ -5,7 +5,6 @@ import imgPaoComOvo from "../../../public/paoComOvo.svg"
 import imgMistoQuente from "../../../public/sanduicheMisto.svg"
 import imgSopa from "../../../public/sopas.svg"
 
-import { Hamburger } from "@phosphor-icons/react"
 import Image from "next/image"
 
 export default function CardapioLanches() {
@@ -25,7 +24,6 @@ export default function CardapioLanches() {
       `} id="cardapiosalgados">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl pb-4 font-bold`}>Lanches</p>
-        <Hamburger size={48} weight="duotone" className={`-rotate-6`} />
       </span>
 
       <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-3`}>
