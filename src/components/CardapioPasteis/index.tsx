@@ -20,7 +20,7 @@ export default function CardapioPasteis() {
         font-caveat
       `} id="cardapiopasteis">
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl pt-14 font-bold`}>Pastéis</p>
+        <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Pastéis</p>
       </span>
 
       <Image src={imgPastel} width={300} height={300} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-none`} priority />

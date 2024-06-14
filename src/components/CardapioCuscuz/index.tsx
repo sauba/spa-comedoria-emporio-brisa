@@ -21,7 +21,7 @@ export default function CardapioCuscuz() {
         font-caveat
       `} id="cardapiocuscuz">
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl pb-4 font-bold`}>Cuscuz</p>
+        <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Cuscuz</p>
       </span>
 
       <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-3`}>

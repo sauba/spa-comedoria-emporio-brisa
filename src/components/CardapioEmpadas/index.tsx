@@ -17,7 +17,7 @@ export default function CardapioEmpadas() {
         font-caveat
       `} id="cardapioempadas">
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl font-bold`}>Empadas</p>
+        <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Empadas</p>
       </span>
 
       <div className={`w-full flex flex-col justify-center items-center p-4 gap-4`}>

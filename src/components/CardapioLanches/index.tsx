@@ -23,7 +23,7 @@ export default function CardapioLanches() {
         font-caveat
       `} id="cardapiosalgados">
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-8xl pb-4 font-bold`}>Lanches</p>
+        <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Lanches</p>
       </span>
 
       <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-3`}>
