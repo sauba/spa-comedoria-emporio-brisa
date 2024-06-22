@@ -4,7 +4,7 @@ import Image from "next/image";
 import imgAguaMineral from "../../../public/aguaMineral.svg";
 import imgAguaMineralComGas from "../../../public/aguaMineralComGas.svg";
 import imgAguaMineralUmLitroeMeio from "../../../public/aguaMineralUmLitroEMeioSemGas.svg";
-import imgRefrigeranteDiversosLitro from "../../../public/refrigeranteDiversosLitro.svg";
+import imgRefrigeranteDiversosLitro from "../../../public/litrococaguarana.svg";
 import imgRefrigeranteLata from "../../../public/refrigerantelata.svg";
 import imgSucoPolpas from "../../../public/sucoPolpas.svg";
 
