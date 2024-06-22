@@ -1,5 +1,5 @@
 'use client'
-
+import Image from "next/image"
 
 export default function CardapioEmpadas() {
   return (
@@ -18,6 +18,7 @@ export default function CardapioEmpadas() {
       `} id="cardapioempadas">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Empadas</p>
+        <Image src={`/empada01.png`} width={200} height={200} alt="" />
       </span>
 
       <div className={`w-full flex flex-col justify-center items-center p-4 gap-4`}>
