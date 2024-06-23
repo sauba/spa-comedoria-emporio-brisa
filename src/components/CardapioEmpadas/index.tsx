@@ -26,6 +26,11 @@ export default function CardapioEmpadas() {
         <div className={`grid grid-cols-2 justify-center items-center gap-3`}>
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
             <Circle size={16} weight="duotone" />
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Camarão</span>
+          </span>
+
+          <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+            <Circle size={16} weight="duotone" />
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
           </span>
 
@@ -37,11 +42,6 @@ export default function CardapioEmpadas() {
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
             <Circle size={16} weight="duotone" />
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Calabresa C/ Queijo</span>
-          </span>
-
-          <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Circle size={16} weight="duotone" />
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Camarão</span>
           </span>
         </div>
         <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
