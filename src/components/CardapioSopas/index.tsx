@@ -22,7 +22,7 @@ export default function CardapioSopas() {
       </span>
 
       <span className={`w-full flex flex-col text-center justify-center xl:justify-center items-center gap-3`}>
-        <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Sopa de ######</span>
+        <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Sopa de Carne</span>
         <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
       </span>
     </div>

@@ -80,7 +80,7 @@ export default function Footer() {
             </span>
           </div>
         </div>
-        <p className="relative font-bad-script text-center text-zinc-800 z-40">© 2024 Todos os direitos reservados.</p>
+        <p className="relative font-bad-script text-center text-zinc-800 z-40 xs:text-[8px] xl:text-[12px]">Comedoria Empório Brisa © 2024 Todos os direitos reservados.</p>
       </div>
     </footer>
   )
