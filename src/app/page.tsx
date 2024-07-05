@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import AcceptablePaymentMethods from "@/components/AcceptablePaymentMethods";
 import CardapioBebidasGeladas from "@/components/CardapioBebibasGeladas";
 import CardapioBebidasQuentes from "@/components/CardapioBebidasQuentes";
 import CardapioCuscuz from "@/components/CardapioCuscuz";
@@ -25,6 +26,7 @@ export default function Home() {
       <CardapioTapiocas />
       <CardapioBebidasGeladas />
       <CardapioBebidasQuentes />
+      <AcceptablePaymentMethods />
       <Footer />
     </main>
   );
