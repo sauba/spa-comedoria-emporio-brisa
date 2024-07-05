@@ -4,6 +4,7 @@ export default function About() {
   return (
     <div className={`
         w-full
+        min-h-screen
         about
         flex
         flex-col
