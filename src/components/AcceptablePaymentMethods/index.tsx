@@ -30,7 +30,7 @@ export default function AcceptablePaymentMethods() {
         <p className={`text-4xl 2xl:text-6xl font-bold`}>Cartões</p>
       </span>
 
-      <div className={`grid grid-cols-3 xl:grid-cols-5 justify-center items-center gap-12 py-8`}>
+      <div className={`flex justify-center items-center gap-6 py-8`}>
         <Image src={`/visa.svg`} width={200} height={200} alt="" />
         <Image src={`/hipercard.svg`} width={200} height={200} alt="" />
         <Image src={`/mastercard.svg`} width={200} height={200} alt="" />
