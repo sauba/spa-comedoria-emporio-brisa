@@ -31,11 +31,11 @@ export default function AcceptablePaymentMethods() {
       </span>
 
       <div className={`flex flex-wrap justify-center items-center gap-6 mb-20 py-8`}>
-        <Image src={`/visa.svg`} width={128} height={128} alt="" />
-        <Image src={`/hipercard.svg`} width={128} height={128} alt="" />
-        <Image src={`/mastercard.svg`} width={128} height={128} alt="" />
-        <Image src={`/elocard.svg`} width={128} height={128} alt="" />
-        <Image src={`/sodexo.svg`} width={128} height={128} alt="" />
+        <Image src={`/visa.svg`} width={64} height={64} alt="" />
+        <Image src={`/hipercard.svg`} width={64} height={64} alt="" />
+        <Image src={`/mastercard.svg`} width={64} height={64} alt="" />
+        <Image src={`/elocard.svg`} width={64} height={64} alt="" />
+        <Image src={`/sodexo.svg`} width={64} height={64} alt="" />
       </div>
     </div>
   )
