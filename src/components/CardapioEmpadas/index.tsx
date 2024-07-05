@@ -6,7 +6,7 @@ export default function CardapioEmpadas() {
   return (
     <div className={`
         w-full
-        cardapioempadas
+        empadas
         flex
         flex-col
         justify-center
@@ -16,7 +16,7 @@ export default function CardapioEmpadas() {
         border-none
         text-own-brown-dark
         font-caveat
-      `} id="cardapioempadas">
+      `} id="empadas">
       <span className={`flex-col justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Empadas</p>
         <Image src={`/empada01.png`} width={200} height={200} className={`mx-auto py-8 hover:transition-transform hover:scale-150 hover:cursor-pointer`} alt="" />

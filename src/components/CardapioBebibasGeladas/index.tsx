@@ -12,7 +12,7 @@ export default function CardapioBebidasGeladas() {
   return (
     <div className={`
         w-full
-        cardapiobebidasquentes
+        bebidasgeladas
         flex
         flex-col
         justify-center
@@ -22,7 +22,7 @@ export default function CardapioBebidasGeladas() {
         border-none
         text-own-brown-dark
         font-caveat
-      `} id="cardapiobebidasquentes">
+      `} id="bebidasgeladas">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Bebidas Geladas</p>
       </span>

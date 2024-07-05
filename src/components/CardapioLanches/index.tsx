@@ -10,7 +10,7 @@ export default function CardapioLanches() {
   return (
     <div className={`
         w-full
-        cardapiosalgados
+        lanches
         flex
         flex-col
         justify-center
@@ -20,7 +20,7 @@ export default function CardapioLanches() {
         border-none
         text-own-brown-dark
         font-caveat
-      `} id="cardapiosalgados">
+      `} id="lanches">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Lanches</p>
       </span>

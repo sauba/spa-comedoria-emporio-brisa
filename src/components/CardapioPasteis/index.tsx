@@ -8,7 +8,7 @@ export default function CardapioPasteis() {
   return (
     <div className={`
         w-full
-        cardapiopasteis
+        pasteis
         flex
         flex-col
         justify-center
@@ -18,7 +18,7 @@ export default function CardapioPasteis() {
         border-none
         text-own-brown-dark
         font-caveat
-      `} id="cardapiopasteis">
+      `} id="pasteis">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Pastéis</p>
       </span>

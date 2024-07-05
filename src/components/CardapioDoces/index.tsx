@@ -4,7 +4,7 @@ export default function CardapioDoces() {
   return (
     <div className={`
         w-full
-        cardapiodoces
+        doces
         flex
         flex-col
         justify-center
@@ -14,7 +14,7 @@ export default function CardapioDoces() {
         border-none
         text-zinc-100
         font-caveat
-      `} id="cardapiodoces">
+      `} id="doces">
     </div>
   )
 }

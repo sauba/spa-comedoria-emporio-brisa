@@ -27,7 +27,7 @@ export default function NavbarDropdownMenu() {
               leaveTo="opacity-0 scale-95"
             >
               <Menu.Items className="origin-top-left absolute left-0 w-60 xl:bg-transparent">
-                <div className="flex-col justify-start items-start">
+                <div className="w-full flex flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
                       <div
@@ -63,7 +63,6 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          
                           justify-center
                           items-center
                           ${active
@@ -72,37 +71,8 @@ export default function NavbarDropdownMenu() {
                           }
                         `}
                       >
-                        <p
-                          className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            text-2xl
-                            hover:cursor-none
-                          `}
-                        >
-                          Sobre
-                        </p>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                          flex
-                          justify-center
-                          items-center
-                          ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
-                            : "text-zinc-100 font-bold"
-                          }
-                        `}
-                      >
                         <a
-                          href="#cardapio"
+                          href="#empadas"
                           className={`
                             flex
                             items-center
@@ -112,7 +82,7 @@ export default function NavbarDropdownMenu() {
                             xl:text-lg  
                           `}
                         >
-                          Cardápio
+                          Empadas
                         </a>
                       </div>
                     )}
@@ -123,70 +93,6 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          
-                          justify-center
-                          items-center
-                          ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
-                            : "text-zinc-100 font-bold"
-                          }
-                        `}
-                      >
-                        <a
-                          href="#bebidas"
-                          className={`
-                            flex
-                            items-center
-                            text-center
-                            px-2
-                            py-2
-                            text-sm
-                            xl:text-lg
-                          `}
-                        >
-                          Bebidas
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                          flex
-                          
-                          justify-center
-                          items-center
-                          ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
-                            : "text-zinc-100 font-bold"
-                          }
-                        `}
-                      >
-                        <a
-                          href="#salgados"
-                          className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            text-sm
-                            xl:text-lg
-                          `}
-                        >
-                          Salgados
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                          flex
-                          
                           justify-center
                           items-center
                           ${active
@@ -200,6 +106,158 @@ export default function NavbarDropdownMenu() {
                           className={`
                             flex
                             items-center
+                            px-2
+                            py-2
+                            text-sm
+                            xl:text-lg  
+                          `}
+                        >
+                          Sopas
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          justify-center
+                          items-center
+                          ${active
+                            ? "text-zinc-100 font-bold hover:cursor-none"
+                            : "text-zinc-100 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#lanches"
+                          className={`
+                            flex
+                            items-center
+                            px-2
+                            py-2
+                            text-sm
+                            xl:text-lg  
+                          `}
+                        >
+                          Lanches
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
+                            : "text-zinc-100 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#cuscuz"
+                          className={`
+                            flex
+                            items-center
+                            px-2
+                            py-2
+                            text-sm
+                            xl:text-lg  
+                          `}
+                        >
+                          Cuscuz
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
+                            : "text-zinc-100 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#pasteis"
+                          className={`
+                            flex
+                            items-center
+                            text-center
+                            px-2
+                            py-2
+                            text-sm
+                            xl:text-lg
+                          `}
+                        >
+                          Pastéis
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-zinc-100 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#tapiocas"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            xl:text-lg
+                          `}
+                        >
+                          Tapiocas
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          
+                          justify-center
+                          items-center
+                          ${active
+                            ? "text-zinc-100 font-bold hover:cursor-none"
+                            : "text-zinc-100 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#bebidasgeladas"
+                          className={`
+                            flex
+                            items-center
                             px-4
                             py-2
                             text-2xl
@@ -208,7 +266,7 @@ export default function NavbarDropdownMenu() {
                             hover:cursor-none
                           `}
                         >
-                          Sopas
+                          Bebidas Geladas
                         </a>
                       </div>
                     )}
@@ -229,7 +287,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#doces"
+                          href="#bebidasquentes"
                           className={`
                             flex
                             items-center
@@ -240,7 +298,7 @@ export default function NavbarDropdownMenu() {
                             text-center
                           `}
                         >
-                          Doces
+                          Hora do Café
                         </a>
                       </div>
                     )}

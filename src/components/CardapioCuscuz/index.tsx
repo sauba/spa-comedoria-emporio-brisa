@@ -9,7 +9,7 @@ export default function CardapioCuscuz() {
   return (
     <div className={`
         w-full
-        cardapiocuscuz
+        cuscuz
         flex
         flex-col
         justify-center
@@ -19,7 +19,7 @@ export default function CardapioCuscuz() {
         border-none
         text-own-brown-dark
         font-caveat
-      `} id="cardapiocuscuz">
+      `} id="cuscuz">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Cuscuz</p>
       </span>

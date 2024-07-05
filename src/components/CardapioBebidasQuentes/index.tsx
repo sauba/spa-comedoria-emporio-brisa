@@ -9,7 +9,7 @@ export default function CardapioBebidasQuentes() {
   return (
     <div className={`
         w-full
-        cardapiobebidasquentes
+        bebidasquentes
         flex
         flex-col
         pb-32
@@ -20,7 +20,7 @@ export default function CardapioBebidasQuentes() {
         border-none
         text-own-brown-dark
         font-caveat
-      `} id="cardapiobebidasquentes">
+      `} id="bebidasquentes">
       <span className={`flex justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Hora do Café</p>
       </span>
