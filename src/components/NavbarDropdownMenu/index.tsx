@@ -248,7 +248,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-zinc-100 font-bold hover:cursor-none"
+                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -260,10 +260,9 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-2xl
-                            gap-3
-                            font-bold
-                            hover:cursor-none
+                            text-sm
+                            xl:text-lg
+                            text-center
                           `}
                         >
                           Bebidas Geladas
@@ -309,10 +308,11 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
+                          
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full"
+                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -324,9 +324,9 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            gap-3
                             text-sm
-                            xl:text-2xl
+                            xl:text-lg
+                            text-center
                           `}
                         >
                           Contato
