@@ -1,18 +1,19 @@
 import { Menu, Transition } from "@headlessui/react"
-import { House, ListBullets } from "@phosphor-icons/react"
+import { ListBullets } from "@phosphor-icons/react"
+import Image from "next/image"
 import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-start items-start border-none outline-none overflow-hidden">
-      <Menu as="div" className="absolute border-none outline-none">
+    <div className="flex justify-center items-center border-none outline-none overflow-hidden">
+      <Menu as="div" className="w-full relative border-none outline-none">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-100 border-none outline-none">
+            <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none overflow-hidden">
               <ListBullets
-                size={68}
+                size={56}
                 weight="bold"
-                className={`py-4 border-none outline-none hover:cursor-pointer text-zinc-600`}
+                className={`px-2 border-none outline-none hover:cursor-pointer text-zinc-600`}
               />
             </Menu.Button>
 
@@ -26,7 +27,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-60 xl:bg-transparent">
+              <Menu.Items className="w-full min-h-screen justify-center items-center bg-own-orange-fosco overflow-hidden">
                 <div className="w-full flex flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
@@ -36,7 +37,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center                                                       
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full"
+                            ? "text-lime-400 font-bold hover:rounded-r-full"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -52,7 +53,7 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          <House size={32} weight="bold" className={`text-zinc-600`} />
+                          <Image src={`/logo.svg`} width={256} height={256} alt="" className={`mx-auto`} />
                         </a>
                       </div>
                     )}
@@ -66,8 +67,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-zinc-100 font-bold hover:cursor-none"
-                            : "text-zinc-100 font-bold"
+                            ? "text-lime-400 font-bold hover:cursor-none"
+                            : "text-zinc-100 font-thin"
                           }
                         `}
                       >
@@ -96,8 +97,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-zinc-100 font-bold hover:cursor-none"
-                            : "text-zinc-100 font-bold"
+                            ? "text-lime-400 font-bold hover:cursor-none"
+                            : "text-zinc-100 font-thin"
                           }
                         `}
                       >
@@ -126,8 +127,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-zinc-100 font-bold hover:cursor-none"
-                            : "text-zinc-100 font-bold"
+                            ? "text-lime-400 font-bold hover:cursor-none"
+                            : "text-zinc-100 font-thin"
                           }
                         `}
                       >
@@ -156,7 +157,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
+                            ? "text-lime-400 text-center font-bold hover:rounded-r-full"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -186,7 +187,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
+                            ? "text-lime-400 text-center font-bold hover:rounded-r-full"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -217,7 +218,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -248,7 +249,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -280,7 +281,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -312,7 +313,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
