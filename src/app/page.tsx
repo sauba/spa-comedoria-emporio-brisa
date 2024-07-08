@@ -21,9 +21,9 @@ export default function Home() {
       <CardapioSopas />
       <CardapioLanches />
       <CardapioCuscuz />
-      <CardapioDoces />
       <CardapioPasteis />
       <CardapioTapiocas />
+      <CardapioDoces />
       <CardapioBebidasGeladas />
       <CardapioBebidasQuentes />
       <AcceptablePaymentMethods />

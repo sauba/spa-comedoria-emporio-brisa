@@ -23,7 +23,7 @@ export default function CardapioEmpadas() {
       </span>
 
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
-        <div className={`grid grid-cols-2 justify-center items-center gap-3`}>
+        <div className={`flex flex-col justify-center items-center gap-3`}>
           <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
             <Circle size={16} weight="duotone" />
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Camarão</span>
