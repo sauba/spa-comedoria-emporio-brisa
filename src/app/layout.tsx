@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Empório da Brisa",
+  title: "Empório Brisa",
   description: "Developed by Thiago José de Queiroz",
 };
 
