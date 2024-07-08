@@ -67,7 +67,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-lime-400 font-bold hover:cursor-none"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-thin"
                           }
                         `}
@@ -97,7 +97,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-lime-400 font-bold hover:cursor-none"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-thin"
                           }
                         `}
@@ -127,7 +127,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-lime-400 font-bold hover:cursor-none"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-thin"
                           }
                         `}
@@ -248,7 +248,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-lime-400 font-bold hover:cursor-none"
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
                             : "text-zinc-100 font-thin"
                           }
                         `}
