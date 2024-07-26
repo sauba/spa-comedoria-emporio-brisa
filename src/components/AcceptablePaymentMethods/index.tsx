@@ -23,7 +23,7 @@ export default function AcceptablePaymentMethods() {
       </span>
 
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-4xl 2xl:text-6xl font-bold`}>Dinheiro</p>
+        <p className={`text-4xl 2xl:text-6xl font-bold py-4`}>Dinheiro</p>
       </span>
 
       <span className={`flex flex-col justify-center items-center gap-2`}>
