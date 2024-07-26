@@ -19,15 +19,21 @@ export default function AcceptablePaymentMethods() {
         font-caveat
       `} id="acceptablepaymentmethods">
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Formas de Pagamento</p>
+        <p className={`text-6xl 2xl:text-8xl font-bold`}>Formas de Pagamento</p>
       </span>
 
       <span className={`flex justify-center items-center gap-2`}>
+        <p className={`text-4xl 2xl:text-6xl font-bold`}>Dinheiro</p>
+      </span>
+
+      <span className={`flex flex-col justify-center items-center gap-2`}>
         <p className={`text-4xl 2xl:text-6xl font-bold`}>PIX</p>
+        <Image src={`/qrcodecomedoria.png`} width={300} height={300} className="mx-auto py-8" alt="" />
+        <p className={`text-4xl 2xl:text-6xl font-bold`}>Titular: Rebeca Silvestre Freire</p>
       </span>
 
       <span className={`flex justify-center items-center gap-2`}>
-        <p className={`text-4xl 2xl:text-6xl font-bold`}>Cartões</p>
+        <p className={`text-4xl 2xl:text-6xl font-bold pt-4`}>Aceitamos Cartões</p>
       </span>
 
       <div className={`flex flex-wrap justify-center items-center gap-6 mb-20 py-8`}>
