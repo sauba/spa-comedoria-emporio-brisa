@@ -349,6 +349,38 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
+                          href="#acceptablepaymentmethods"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            xl:text-lg
+                            text-center
+                          `}
+                        >
+                          Formas de Pagamento
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          
+                          justify-center
+                          items-center
+                          ${active
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-zinc-100 font-bold"
+                          }
+                        `}
+                      >
+                        <a
                           href="#contato"
                           className={`
                             flex
