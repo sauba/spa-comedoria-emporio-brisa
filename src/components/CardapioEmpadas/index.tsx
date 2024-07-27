@@ -45,7 +45,7 @@ export default function CardapioEmpadas() {
           </span>
         </div>
         <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ #,##</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 6,00</span>
         </span>
       </div>
     </div>
