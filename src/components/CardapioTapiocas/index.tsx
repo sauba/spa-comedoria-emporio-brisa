@@ -1,5 +1,6 @@
 'use client'
 
+import { Circle } from "@phosphor-icons/react";
 import Image from "next/image";
 import imgTapiocaCharque from "../../../public/tapiocaCharque.svg";
 import imgTapiocaFrango from "../../../public/tapiocaFrango.svg";
@@ -25,44 +26,48 @@ export default function CardapioTapiocas() {
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Tapiocas</p>
       </span>
 
-      <div className={`w-full p-4 grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-3`}>
-        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgTapiocaQueijo} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-          <div className={`flex flex-col justify-center items-center`}>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Dois Sabores</span>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
-          </div>
-        </span>
-        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgTapiocaQueijo} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-          <div className={`flex flex-col justify-center items-center`}>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Queijo</span>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 10,00</span>
-          </div>
+      <span className="w-full flex justify-center items-center gap-3">
+        <Image src={imgTapiocaQueijo} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaQueijo} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaFrango} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaCharque} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaCoco} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
+      </span>
+
+      <div className={`grid grid-cols-2 justify-center items-center gap-3`}>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <Circle size={16} weight="duotone" />
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Dois Sabores</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
         </span>
 
-        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgTapiocaFrango} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-          <div className={`flex flex-col justify-center items-center`}>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
-          </div>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <Circle size={16} weight="duotone" />
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Queijo</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 10,00</span>
         </span>
 
-        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgTapiocaCharque} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-          <div className={`flex flex-col justify-center items-center`}>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Charque</span>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
-          </div>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <Circle size={16} weight="duotone" />
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
         </span>
 
-        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgTapiocaCoco} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-          <div className={`flex flex-col justify-center items-center`}>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Coco</span>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 10,00</span>
-          </div>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <Circle size={16} weight="duotone" />
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Charque</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
+        </span>
+
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <Circle size={16} weight="duotone" />
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Coco</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 10,00</span>
+        </span>
+
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <Circle size={16} weight="duotone" />
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}></span>
         </span>
       </div>
     </div>
