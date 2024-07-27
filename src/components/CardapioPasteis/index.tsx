@@ -27,7 +27,7 @@ export default function CardapioPasteis() {
 
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
         <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-3`}>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-6xl`}>Escolha 03 Opções de Recheio</span>
+          <span className={`text-2xl xl:text-3xl 2xl:text-6xl`}>Escolha 03 Opções de Recheio</span>
         </span>
 
         <div className={`grid grid-cols-2 justify-center items-center gap-3`}>
