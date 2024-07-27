@@ -18,7 +18,7 @@ export default function CardapioSopas() {
       `} id="sopas">
       <span className={`flex-col justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Sopas</p>
-        <Image src={`/sopas.svg`} width={200} height={200} className={`mx-auto py-8 hover:transition-transform hover:scale-150 hover:cursor-pointer`} alt="" />
+        <Image src={`/sopas.svg`} width={200} height={200} className={`mx-auto py-8 hover:transition-transform hover:scale-125 hover:cursor-pointer`} alt="" />
       </span>
 
       <span className={`w-full flex flex-col text-center justify-center xl:justify-center items-center gap-3`}>
