@@ -27,7 +27,7 @@ export default function CardapioPasteis() {
 
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
         <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-3`}>
-          <span className={`text-3xl 2xl:text-6xl`}>Escolha 03 Opções de Recheio</span>
+          <span className={`text-3xl 2xl:text-6xl`}>Escolha Até 03 Opções de Recheio</span>
         </span>
 
         <div className={`grid grid-cols-2 justify-center items-center gap-3`}>
@@ -99,8 +99,9 @@ export default function CardapioPasteis() {
         </div>
 
         <span className={`w-full flex flex-col text-center justify-center xl:justify-center items-center gap-3`}>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>01 Recheio: R$ #,##</span>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>02 Recheio: R$ #,##</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>01 Opção de Recheio: R$ #,##</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>02 Opções de Recheio: R$ #,##</span>
+          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>03 Opções de Recheio: R$ #,##</span>
         </span>
       </div>
     </div>
