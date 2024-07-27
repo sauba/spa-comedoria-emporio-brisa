@@ -27,10 +27,10 @@ export default function CardapioTapiocas() {
       </span>
 
       <span className="w-full grid grid-cols-4">
-        <Image src={imgTapiocaQueijo} width={100} height={100} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-        <Image src={imgTapiocaFrango} width={100} height={100} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-        <Image src={imgTapiocaCharque} width={100} height={100} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
-        <Image src={imgTapiocaCoco} width={100} height={100} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaQueijo} width={124} height={124} alt="" className={`mx-auto hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaFrango} width={124} height={124} alt="" className={`mx-auto hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaCharque} width={124} height={124} alt="" className={`mx-auto hover:cursor-pointer`} priority />
+        <Image src={imgTapiocaCoco} width={124} height={124} alt="" className={`mx-auto hover:cursor-pointer`} priority />
       </span>
 
       <div className={`grid grid-cols-2 justify-center items-center gap-3`}>
