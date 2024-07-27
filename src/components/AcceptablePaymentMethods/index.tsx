@@ -28,7 +28,7 @@ export default function AcceptablePaymentMethods() {
 
       <span className={`flex flex-col justify-center items-center gap-2`}>
         <p className={`text-3xl 2xl:text-5xl font-bold`}>PIX</p>
-        <Image src={`/qrcodecomedoria.png`} width={300} height={300} className="mx-auto py-8" alt="" />
+        <Image src={`/qrcodecomedoria.png`} width={300} height={300} className="mx-auto pb-8" alt="" />
         <p className={`text-xl font-bold font-pt-mono`}>Banco Nubank</p>
         <p className={`text-xl font-bold font-pt-mono`}>Titular: Rebeca Silvestre Freire</p>
       </span>
