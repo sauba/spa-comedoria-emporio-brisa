@@ -26,7 +26,7 @@ export default function CardapioTapiocas() {
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Tapiocas</p>
       </span>
 
-      <span className="w-full flex justify-center items-center gap-1">
+      <span className="w-full grid grid-cols-4">
         <Image src={imgTapiocaQueijo} width={100} height={100} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
         <Image src={imgTapiocaFrango} width={100} height={100} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
         <Image src={imgTapiocaCharque} width={100} height={100} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
