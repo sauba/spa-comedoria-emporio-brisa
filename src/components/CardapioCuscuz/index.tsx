@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import imgCuscuzCalabresa from "../../../public/cuscuzCalabresa.svg";
-import imgCuscuzCharque from "../../../public/cuscuzCharque.svg";
 import imgCuscuzFrango from "../../../public/cuscuzFrango.svg";
 
 export default function CardapioCuscuz() {
@@ -34,7 +33,7 @@ export default function CardapioCuscuz() {
         </span>
 
         <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgCuscuzCharque} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
+          <Image src={`/cuscuzCharque.svg`} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer`} priority />
           <div className={`flex flex-col justify-center items-center`}>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Charque</span>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 15,00</span>

@@ -34,31 +34,31 @@ export default function CardapioTapiocas() {
       </span>
 
       <div className={`grid grid-cols-2 justify-center items-center gap-3`}>
-        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-1`}>
           <Circle size={16} weight="duotone" />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>02 Sabores</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-1`}>
           <Circle size={16} weight="duotone" />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Queijo</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 10,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-1`}>
           <Circle size={16} weight="duotone" />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-1`}>
           <Circle size={16} weight="duotone" />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Charque</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 12,00</span>
         </span>
 
-        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+        <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-1`}>
           <Circle size={16} weight="duotone" />
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Coco</span>
           <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 10,00</span>
