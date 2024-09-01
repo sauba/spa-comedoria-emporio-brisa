@@ -22,7 +22,7 @@ export default function CardapioPasteis() {
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Pastéis</p>
       </span>
 
-      <Image src={`/pastelgrande.svg`} width={300} height={300} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-none`} priority />
+      <Image src={`/pastel.svg`} width={480} height={480} alt="" className={`mx-auto hover:cursor-none`} priority />
 
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
         <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-3`}>
