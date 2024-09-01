@@ -103,6 +103,36 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
+                          href="#empadao"
+                          className={`
+                            flex
+                            items-center
+                            px-2
+                            py-2
+                            text-sm
+                            xl:text-lg  
+                          `}
+                        >
+                          Empadão
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          justify-center
+                          items-center
+                          ${active
+                            ? "text-lime-400 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-zinc-100 font-bold"
+                          }
+                        `}
+                      >
+                        <a
                           href="#sopas"
                           className={`
                             flex
