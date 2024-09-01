@@ -19,7 +19,7 @@ export default function CardapioEmpadas() {
       `} id="empadao">
       <span className={`flex-col justify-center items-center gap-2`}>
         <p className={`text-6xl 2xl:text-8xl pt-14 font-bold`}>Empadão</p>
-        <Image src={`/empadao.png`} width={200} height={200} className={`mx-auto py-8 hover:transition-transform hover:scale-150 hover:cursor-pointer`} alt="" />
+        <Image src={`/empadao.svg`} width={200} height={200} className={`mx-auto py-8 hover:transition-transform hover:scale-150 hover:cursor-pointer`} alt="" />
       </span>
 
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
