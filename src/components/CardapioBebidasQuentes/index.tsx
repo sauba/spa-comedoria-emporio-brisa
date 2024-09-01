@@ -1,9 +1,9 @@
 'use client'
 
 import Image from "next/image";
+import imgCafe from "../../../public/cafe.svg";
 import imgCafeCappuccino from "../../../public/cafeCappuccino.svg";
-import imgCafe from "../../../public/cafeCoado.svg";
-import imgCafeComLeite from "../../../public/cafeComLeite.svg";
+import imgCafeComLeite from "../../../public/cafecomleite.svg";
 
 export default function CardapioBebidasQuentes() {
   return (
