@@ -4,6 +4,7 @@ import CardapioBebidasGeladas from "@/components/CardapioBebibasGeladas";
 import CardapioBebidasQuentes from "@/components/CardapioBebidasQuentes";
 import CardapioCuscuz from "@/components/CardapioCuscuz";
 import CardapioDoces from "@/components/CardapioDoces";
+import CardapioEmpadao from "@/components/CardapioEmpadao";
 import CardapioEmpadas from "@/components/CardapioEmpadas";
 import CardapioLanches from "@/components/CardapioLanches";
 import CardapioPasteis from "@/components/CardapioPasteis";
@@ -18,6 +19,7 @@ export default function Home() {
       <Header />
       <About />
       <CardapioEmpadas />
+      <CardapioEmpadao />
       <CardapioSopas />
       <CardapioLanches />
       <CardapioCuscuz />
