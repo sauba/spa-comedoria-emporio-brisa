@@ -4,8 +4,7 @@ import Image from "next/image";
 import imgAguaMineral from "../../../public/aguaMineral.svg";
 import imgAguaMineralComGas from "../../../public/aguaMineralComGas.svg";
 import imgAguaMineralUmLitroeMeio from "../../../public/aguaMineralUmLitroEMeioSemGas.svg";
-import imgCocaColaLitro from "../../../public/refrigeranteCocaColaLitro.svg";
-import imgGuaranaLitro from "../../../public/refrigeranteGuaranaAntarcticaLitro.svg";
+import imgCocaGuaranaLitro from "../../../public/litrococaguarana.svg";
 import imgRefrigeranteLata from "../../../public/refrigerantelata.svg";
 import imgSucoPolpas from "../../../public/sucoPolpas.svg";
 
@@ -38,20 +37,21 @@ export default function CardapioBebidasGeladas() {
         </span>
 
         <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
-          <Image src={imgCocaColaLitro} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer hover:pb-8`} priority />
+          <Image src={imgCocaGuaranaLitro} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer hover:pb-8`} priority />
           <div className={`flex flex-col justify-center items-center`}>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Coca-Cola 1 litro</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Refrigerante 1 litro</span>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$12,00</span>
           </div>
         </span>
 
-        <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
+        {/* Guarana ficou mesmo preço da coca - item removido */}
+        {/* <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
           <Image src={imgGuaranaLitro} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer hover:pb-8`} priority />
           <div className={`flex flex-col justify-center items-center`}>
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Guaraná Antarctica 1 litro</span>
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$10,00</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$12,00</span>
           </div>
-        </span>
+        </span> */}
 
         <span className={`w-full flex-col text-center justify-between xl:justify-center items-center gap-3 rounded-lg border-none outline-none p-4`}>
           <Image src={imgSucoPolpas} width={180} height={180} alt="" className={`mx-auto hover:transition-transform hover:scale-150 hover:cursor-pointer hover:pb-8`} priority />

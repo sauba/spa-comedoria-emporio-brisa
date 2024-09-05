@@ -24,29 +24,18 @@ export default function CardapioEmpadas() {
 
       <div className={`w-full p-4 flex flex-col justify-center items-center gap-4`}>
         <div className={`flex flex-col justify-center items-center gap-3`}>
-          <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Circle size={16} weight="duotone" />
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Camarão</span>
-          </span>
-
-          <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-3`}>
             <Circle size={16} weight="duotone" />
             <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Frango</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 7,00</span>
           </span>
 
-          <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
+          <span className={`w-full flex text-center justify-center xl:justify-center items-center gap-3`}>
             <Circle size={16} weight="duotone" />
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Carne de Sol C/ Queijo</span>
-          </span>
-
-          <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-            <Circle size={16} weight="duotone" />
-            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Calabresa C/ Queijo</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-pt-mono`}>Camarão</span>
+            <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 8,00</span>
           </span>
         </div>
-        <span className={`w-full flex text-center justify-center xl:justify-center items-center`}>
-          <span className={`text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl p-1 font-pt-mono font-bold rounded-lg bg-own-brown text-zinc-50`}>R$ 6,00</span>
-        </span>
       </div>
     </div>
   )
